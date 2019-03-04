@@ -52,7 +52,7 @@ input[type="checkbox"]{
     background-color: rgba(134, 117, 117, 0.479);
     filter:brightness(0.3);
     opacity:0.8;
-    background-image: url("../images/back.jpg" );
+    background-image: url("../../homePage/images/back.jpg" );
     width: 100%;
     height: 100%;
     background-position: center;
@@ -74,12 +74,12 @@ input[type="checkbox"]{
     margin-top: 30px;
 }
 .separator {
-    height: 200px;
+    height: 140px;
 }
 .action-button {
     font-size: 1.5em;
     font-weight: 900;
-    margin-top: 40px;
+    margin-top: 30px;
     width: 70%;
     padding: 15px;
     border-radius: 30px;
@@ -98,4 +98,10 @@ input[type="checkbox"]{
 }
 .terms a {
     color: #35b3a0;
-}   
+}  
+.stmt {
+    font-size: 1.2em;
+    margin-top: 2%;
+    height: 5px;
+    color: red;
+}

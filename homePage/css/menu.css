@@ -1,0 +1,13 @@
+.main-menu 
+{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 4em;
+}
+
+.menu-button 
+{
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(#35b3a0, #333c82);
+}

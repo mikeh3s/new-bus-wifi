@@ -1,8 +1,9 @@
 header nav {
+	z-index: 1;
 	width:90%;
 	max-width:1000px;
 	margin:20px auto;
-	background:#024959;
+	background:#333c82;
 }
  
 .menu_bar {
@@ -33,14 +34,12 @@ header nav ul li a:hover {
 	background:#037E8C;
 }
  
-section {
-	padding:20px;
-}
+
  
 @media screen and (max-width:800px ) {
 	header nav {
-		width:80%;
-		height:100%;
+		width:50%;
+		height:80%;
 		left:-100%;
 		margin:0;
 		position: fixed;
@@ -54,14 +53,19 @@ section {
  
 	.menu_bar {
 		display:block;
-		width:100%;
 		background:#ccc;
+	}
+	.header-logo{
+		margin-top: 2%;
+		left: 35%;
+		position: absolute;
+		width: 35%;
 	}
  
 	.menu_bar .bt-menu {
 		display:block;
-		padding:20px;
-		background:#024959;
+		padding:8px;
+		background:#333c82;
 		color:#fff;
 		text-decoration:none;
 		font-weight: bold;
