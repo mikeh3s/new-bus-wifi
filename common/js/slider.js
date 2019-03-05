@@ -3,9 +3,9 @@ let images = [];
 let time = 3000;
 
 // Image List
-images[0] = '../../advertisement/images/had1.jpg';
-images[1] = '../../advertisement/images/had2.jpg';
-images[2] = '../../advertisement/images/had3.jpg';
+images[0] = '../../advertisement/images/'+ path +'/had1.jpg';
+images[1] = '../../advertisement/images/'+ path +'/had2.jpg';
+images[2] = '../../advertisement/images/'+ path +'/had3.jpg';
 
 // Change Image
 
