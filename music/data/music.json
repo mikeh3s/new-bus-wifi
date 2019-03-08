@@ -1,0 +1,32 @@
+{
+    "songs": [
+        {
+            "id":0,
+            "name": "Fix Me",
+            "artist" : "Dillon Francis & Cuco",
+            "song": "../music/DillonFrancis&Cuco- FixMe.mp3",
+            "image": "../images/album.jpg"
+        },
+        {
+            "id":1,
+            "name": "SLOW DANCING IN THE DARK",
+            "artist" : "Joji",
+            "song": "../music/Joji-SLOWDANCINGINTHEDARK.mp3",
+            "image": "../images/albumjoji.jpg"
+        },
+        {
+            "id":2,
+            "name": "Im Broken",
+            "artist" : "Pantera",
+            "song": "../music/Pantera-ImBroken.mp3",
+            "image": "../images/albumpantera.jpg"
+        },
+        {
+            "id":3,
+            "name": "History",
+            "artist" : "Rich Brian",
+            "song": "../music/RichBrian-History.mp3",
+            "image": "../images/albumrich.jpg"
+        }
+    ]
+}

@@ -4,13 +4,46 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <!-- Bootstrap Link -->
+         <link rel="stylesheet" href="../../common/css/bootstrap.css">
+         <!-- Slide Styles -->
+         <link rel="stylesheet" href="../../common/css/slider.css">
+         <!-- Nav Styles -->
+         <link rel="stylesheet" href="../../common/css/nav.css">
+         <!-- Music Styles -->
+         <link rel="stylesheet" href="../css/music.css">
         <title>Música</title>
     </head>
     <body>
+        <div class="">    
+            <header>
+                <!-- Show Header Logo -->
+                <div id="header"></div>
+                <!-- Show AD Slider -->
+                <div id="slider"></div>
+            </header>
+            <section>
+                <div class="">
+                    <div class="row player">
+                        <div class="col-6 ">
+                            <img id="img-album" class="img-album" src="../images/album.jpg"  alt="">
+                        </div>
+                        <div class="col-6" >
+                            <button class="btn btn-success" id="shuffle"><i class="fa fa-random"></i></button>
+                            <ul class="list-group music-list" id="playlist"></ul>
+                        </div>
+                        <div class="col-12">
+                            <audio id="player" class="player-def" controls src="" controlsList="nodownload"></audio>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
          <!-- JS for bootstrap -->
          <script src="../../common/js/jquery-latest.js"></script>
          <!-- <script src="../js/jquery-3.3.1.slim.min.js" ></script> -->
          <script src="../../common/js/bootstrap.min.js"></script>
+         <!-- JS For Fontawesome -->
          <script src="../../common/js/all.js"></script>
          <!-- Script AD Path Page -->
          <script>
@@ -19,8 +52,8 @@
          <!-- Show Slider JS-->
          <script src="../../common/js/slider.js"></script>
          <!-- Show Nav -->
-         <script src="../../common/js/nav.js"></script>  
-         <!-- Function Menu JS -->
-         <script src="../js/menu.js"></script>
+         <script src="../../common/js/menu_nav.js"></script>  
+
+         <script src="../js/app.js"></script>
     </body>
 </html>

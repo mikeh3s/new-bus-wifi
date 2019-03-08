@@ -1,0 +1,18 @@
+.player {
+    margin-top: 25px;
+}
+.col-6{
+    padding: 0;
+}
+.img-album {
+    width: 100%;
+    max-width: 250px;
+}
+.music-list {
+
+    height: 150px;
+    overflow: auto;
+}
+.player-def {
+    width: 100%;
+}
