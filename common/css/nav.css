@@ -52,19 +52,23 @@ header nav ul li a:hover {
 	}
  
 	.menu_bar {
+		min-height: 50px;
+		position: static;
+		padding: 0;
 		display:block;
-		background:#ccc;
+		background:#333c82;
 	}
 	.header-logo{
-		margin-top: 2%;
+		margin-top: 5px;
 		left: 35%;
 		position: absolute;
-		width: 35%;
+		width: 30%;
 	}
  
 	.menu_bar .bt-menu {
+		position: absolute;
 		display:block;
-		padding:8px;
+		margin:0px 20px;
 		background:#333c82;
 		color:#fff;
 		text-decoration:none;

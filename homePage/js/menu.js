@@ -10,12 +10,12 @@ $(document).ready(function(){
     };
     /** GET LINK */
     let links = {
-        news: "../news/web/news.html",
-        travel: "../travel/web/travel.html",
-        portals: "../internet/web/portals.html",
-        movies: "../video/web/movies.html",
-        series: "../video/web/series.html",
-        music: "../music/web/music.html"
+        news: "../../news/web/news.html",
+        travel: "../../travel/web/travel.html",
+        portals: "../../internet/web/portals.html",
+        movies: "../../video/web/movies.html",
+        series: "../../video/web/series.html",
+        music: "../../music/web/music.html"
     };
     /** REDIRECT PAGE */
     for(let prop in menu_options)
@@ -25,5 +25,4 @@ $(document).ready(function(){
             location.href = links[prop];
         });
     }
-
 });

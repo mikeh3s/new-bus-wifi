@@ -1,8 +1,10 @@
 $(document).ready(function() {
   $('#header').html(
         "<div class='row'>" +
-            "<div id='menu-bar' class='col-12 menu_bar'>" +
-                "<img class='header-logo' src='../../common/images/logo.png' alt=''>" +
+            "<div id='menu-bar' class='col-12 menu_bar '>" +
+                "<div class='header-logo'>"+
+                    "<img  src='../../common/images/logo.png' alt=''>" +
+                "</div>"+
                 "<a href='#' class='bt-menu'><span><i class='fas fa-bars'></i></span></a>" +
             "</div>" +
             "<div class='col-12'>"+

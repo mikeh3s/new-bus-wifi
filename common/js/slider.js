@@ -27,7 +27,7 @@ window.onload = changeImg;
 
 $(document).ready(function() {
     $('#slider').html("<div class='row'>" +
-        "<div class='col-12 position-static slide'>" +
+        "<div class='col-12 position-relative slide slide'>" +
             "<img name='slide' alt='No carga xd'>" +
         "</div>" +
     "</div>");
